@@ -1,0 +1,134 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #f4f4f4;
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #777;
+}
+
+p {
+  margin: 10px 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Global */
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+/* Header */
+
+#hero {
+  background: url('../img/parallax1.jpg') no-repeat center center/cover;
+  opacity: 0.75;
+  height: 100vh;
+}
+
+#hero .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 4px 16px;
+  overflow: hidden;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.8);
+  z-index: 99;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li a {
+  padding: 8px 16px;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.navbar ul li a:hover {
+  background-color: #ccc;
+  color: #000;
+  padding: 8px 16px;
+}
+
+.navbar .search i {
+  color: #000;
+  padding: 8px 16px;
+}
+
+.navbar .search i:hover {
+  background-color: #f44336;
+  color: #fff;
+  padding: 8px 16px;
+}
+
+#hero .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+
+#hero .content h1 {
+  background-color: #000;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+/* About */
+
+.about {
+  text-align: center;
+}
+
+.about .info-top h2 {
+  text-transform: uppercase;
+}
